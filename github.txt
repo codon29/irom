@@ -3,14 +3,16 @@ git config --global user.email 깃허브이메일
 
 처음 저장소 생성시 나오는 코드들 입력
 
+변경시 해야하는 일.
 폴더에서 git add .
 git commit -m "~~"
 git push
 
 git branch 브랜치명 <<브랜치 생성
 git branch -d 삭제할브랜치명
+git branch -a 브랜치 리스트
 git checkout 브랜치명 브랜치로 이동
-git merge 브랜치명
+git merge 브랜치명 -> git push origin main
 
 
 가져올떄는 git pull
