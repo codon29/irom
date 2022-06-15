@@ -1,0 +1,19 @@
+git config --global user.name "이름"
+git config --global user.email 깃허브이메일
+
+처음 저장소 생성시 나오는 코드들 입력
+
+폴더에서 git add .
+git commit -m "~~"
+git push
+
+git branch 브랜치명 <<브랜치 생성
+git branch -d 삭제할브랜치명
+git checkout 브랜치명 브랜치로 이동
+git merge 브랜치명
+
+
+가져올떄는 git pull
+
+git add -u << 파일 제거 후에 쓰는 add문 
+add에서 -u 옵션의 의미는 update tracked files를 의미한다
